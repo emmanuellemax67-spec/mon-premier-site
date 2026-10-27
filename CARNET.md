@@ -76,15 +76,15 @@ li : élément de la liste.
 
 1. Quelle est la différence de rôle entre le HTML et le CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le HTML structure le contenu de la page, tandis que le CSS gère son apparence
 
 2. Pour afficher votre page `/presentation`, combien de fichiers le navigateur doit-il télécharger ? (Vous pourrez le vérifier à l'exercice suivant !)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le navigateur télécharge généralement deux fichiers : le HTML et le fichier CSS.
 
 3. Pourquoi faut-il parfois faire **Ctrl + F5** pour voir les changements de CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Ctrl + F5 force le navigateur à recharger la page sans utiliser les anciennes versions des fichiers conservées dans le cache.
 
 ---
 
