@@ -92,11 +92,11 @@ li : élément de la liste.
 
 1. Que signifie HTTP ? Qui envoie la **requête** et qui envoie la **réponse** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ HTTP signifie HyperText Transfer Protocol. Le navigateur envoie la requête et le serveur envoie la réponse.
 
 2. Combien de requêtes votre page `/presentation` a-t-elle déclenchées ? Lesquelles ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ La page /presentation déclenche généralement deux requêtes : une pour le fichier HTML et une pour le fichier CSS.
 
 3. Que signifie le code `200` ? Et le code `404` de la favicon ?
 
