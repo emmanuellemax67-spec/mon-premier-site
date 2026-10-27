@@ -30,7 +30,7 @@ def presentation():
 
 
 @app.get("/loisirs")
-def loisirs():
+def accueil():
     return "Ce que léa aime faire c'est faire du crochet comme loisirs."
 
 # ---------------------------------------------------------------
