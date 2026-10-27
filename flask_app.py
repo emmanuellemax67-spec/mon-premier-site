@@ -29,6 +29,10 @@ def presentation():
     return "Je m'appelle Léa et je suis étudiante en informatique."
 
 
+@app.get("/loisirs")
+def loisirs():
+    return "Ce que léa aime faire c'est faire du crochet comme loisirs."
+
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
 #  sur votre propre ordinateur (python flask_app.py)
