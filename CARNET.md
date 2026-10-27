@@ -64,11 +64,11 @@ li : élément de la liste.
 
 1. Pourquoi est-ce une bonne idée de séparer le code Python et le HTML ? (Pensez à une équipe avec un développeur et un graphiste.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Séparer le Python et le HTML permet au développeur de travailler sur le fonctionnement du site et au graphiste de s'occuper du design, sans mélanger leurs tâches.
 
 2. Les `{{ prenom }}` sont-ils remplacés par le serveur ou par le navigateur ? Comment l'avez-vous vérifié ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Les {{ prenom }} sont remplacés par le serveur. Je l'ai vérifié en affichant le code source de la page : la variable est remplacée par sa valeur.
 
 ---
 
