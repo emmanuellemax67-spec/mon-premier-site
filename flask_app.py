@@ -33,6 +33,10 @@ def presentation():
 def loisirs():
     return "Ce que léa aime faire c'est faire du crochet comme loisirs."
 
+@app.get("/bonjour/<prenom>")
+def bonjour(prenom):
+    return f"<h1>Bonjour {prenom} !</h1>"
+
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
 #  sur votre propre ordinateur (python flask_app.py)
