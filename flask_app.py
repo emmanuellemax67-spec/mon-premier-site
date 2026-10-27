@@ -28,7 +28,6 @@ def accueil():
 def presentation():
     return render_template("presentation.html", prenom="Emmanuelle", nom="MAX",
                        loisirs=["Natation", "Art", "Musique","Crochet"])
-
 @app.get("/loisirs")
 def loisirs():
     return "Ce que léa aime faire c'est faire du crochet comme loisirs."
@@ -36,12 +35,22 @@ def loisirs():
 @app.get("/bonjour/<prenom>")
 def bonjour(prenom):
     return f"<h1>Bonjour {prenom} !</h1>"
-
+    
 @app.get("/calcul")
 def calcul():
     a = int(request.args.get("a", 0))
     b = int(request.args.get("b", 0))
     return f"{a} + {b} = {a + b}"
+
+@app.get("/formulaire")
+def formulaire():
+    return render_template("formulaire.html")
+
+@app.get("/salut")
+def salut():
+    prenom = request.args.get("prenom", "inconnu")
+    ville = request.args.get("ville", "nulle part")
+    return f"Bonjour {prenom}, qui vient de {ville} !"
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
