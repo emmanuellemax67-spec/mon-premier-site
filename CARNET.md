@@ -100,11 +100,11 @@ li : élément de la liste.
 
 3. Que signifie le code `200` ? Et le code `404` de la favicon ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le code 200 signifie que la requête a réussi. Le code 404 signifie que la favicon est introuvable.
 
 4. Pourquoi les modifications faites dans l'onglet Éléments ne sont-elles pas visibles par les autres visiteurs ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Parce que ces modifications sont temporaires et visibles uniquement dans mon navigateur. Elles ne modifient pas le site sur le serveur.
 
 ---
 
@@ -112,15 +112,15 @@ li : élément de la liste.
 
 1. Dans l'URL `https://www.youtube.com/results?search_query=chat`, quel est le nom du paramètre ? Quelle est sa valeur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le nom du paramètre est search_query et sa valeur est chat.
 
 2. Pourquoi le serveur plante-t-il avec `a=bonjour` ? Que faudrait-il faire pour l'éviter ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le serveur plante probablement parce qu'il attend un nombre et reçoit du texte. Il faut vérifier les données reçues avant de les utiliser.
 
 3. Pourquoi est-il dangereux d'afficher **tel quel** ce que l'utilisateur envoie ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Parce qu'un utilisateur pourrait envoyer du code malveillant. Il faut sécuriser et vérifier les données avant de les afficher.
 
 ---
 
@@ -128,15 +128,15 @@ li : élément de la liste.
 
 1. Quelle est la différence visible entre GET et POST ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Avec GET, les données apparaissent dans l'URL. Avec POST, elles sont envoyées dans le corps de la requête.
 
 2. Pour un formulaire de **recherche**, quelle méthode choisiriez-vous ? Et pour un formulaire de **connexion avec mot de passe** ? Pourquoi ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Je choisirais GET pour une recherche et POST pour une connexion, car le mot de passe ne doit pas apparaître dans l'URL.
 
 3. Les données envoyées en POST sont-elles vraiment « secrètes » ? (Pensez à ce que vous avez vu dans l'onglet Réseau.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Non, elles ne sont pas forcément secrètes. Il faut utiliser HTTPS pour protéger les données pendant leur transmission.
 
 ---
 
@@ -144,15 +144,15 @@ li : élément de la liste.
 
 1. Quelle est la différence entre une erreur `4xx` et une erreur `5xx` ? Qui est « fautif » dans chaque cas ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Une erreur 4xx indique un problème dans la requête du client. Une erreur 5xx indique un problème sur le serveur.
 
 2. Comment fonctionne une redirection ? Qui fait la deuxième requête : le serveur ou le navigateur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le serveur indique une nouvelle adresse au navigateur. C'est ensuite le navigateur qui envoie une deuxième requête.
 
 3. Donnez un exemple de situation où un vrai site utilise une redirection.
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Lorsqu'un site passe de HTTP à HTTPS, il peut rediriger automatiquement le visiteur vers la version sécurisée.
 
 ---
 
@@ -160,11 +160,11 @@ li : élément de la liste.
 
 1. Citez trois informations que le serveur connaît sur vous, sans que vous ayez rien rempli.
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le serveur peut connaître mon adresse IP, le type de navigateur utilisé et la langue préférée de mon navigateur.
 
 2. À quoi peut servir l'en-tête `Accept-Language` pour un site comme Wikipédia ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Il permet à Wikipédia de proposer une page dans la langue préférée du visiteur.
 
 3. Dans l'Access log, retrouvez une requête qui a reçu un code `404`. Quelle page était demandée ?
 
@@ -172,7 +172,7 @@ li : élément de la liste.
 
 4. Après cet exercice, que pensez-vous de la notion de « navigation anonyme » ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ La navigation n'est pas totalement anonyme, car les sites peuvent collecter certaines informations techniques sur les visiteurs.
 
 ---
 
@@ -180,15 +180,15 @@ li : élément de la liste.
 
 1. Quelle est la différence entre une page HTML et une réponse JSON ? À qui chacune est-elle destinée ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le HTML sert à afficher une page pour un utilisateur. Le JSON sert à transmettre des données structurées, souvent entre des programmes.
 
 2. Dans la page `/horloge`, quel code s'exécute sur le **serveur** et quel code s'exécute dans le **navigateur** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le code Python s'exécute sur le serveur. Le code JavaScript s'exécute dans le navigateur.
 
 3. Citez une application de votre téléphone qui, selon vous, utilise une API. Quelles données échange-t-elle ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Une application météo utilise une API pour recevoir des données comme la température, les prévisions et les conditions météorologiques.
 
 ---
 
